@@ -13,5 +13,5 @@
    * [The Workspace](02_Hello-Dynamo/the_workspace.md)
    * [Getting  Started](02_Hello-Dynamo/getting_started.md)
    * [File Types and Management](02_Hello-Dynamo/file_types_and_management.md)
-   * The Workflow
+   * [The Workflow](02_Hello-Dynamo/the_workflow.md)
 
