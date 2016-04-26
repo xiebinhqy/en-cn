@@ -8,4 +8,5 @@
    * [key concepts](01_Introduction/key_concepts.md)
    * [preface](01_Introduction/preface.md)
 * [Hello Dynamo](02_Hello-Dynamo)
+   * Installing and Launching Dynamo
 
