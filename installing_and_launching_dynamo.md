@@ -1,2 +1,0 @@
-# Installing and Launching Dynamo
-
