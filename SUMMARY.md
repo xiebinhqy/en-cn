@@ -14,5 +14,5 @@
    * [Getting  Started](02_Hello-Dynamo/getting_started.md)
    * [File Types and Management](02_Hello-Dynamo/file_types_and_management.md)
    * [The Workflow](02_Hello-Dynamo/the_workflow.md)
-* [The anatomy of a visual program](03_Anatomy-of-a-Dynamo-Definition)
+* [The anatomy of a visual program](03_Anatomy-of-a-Dynamo-Definition/anatomy of a visual program.md)
 
