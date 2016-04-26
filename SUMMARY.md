@@ -7,5 +7,5 @@
    * [Dynamo in Action](01_Introduction/dynamo_in_action.md)
    * [key concepts](01_Introduction/key_concepts.md)
    * [preface](01_Introduction/preface.md)
-* [Hello Dynamo](hello_dynamo.md)
+* [Hello Dynamo](02_Hello-Dynamo)
 
