@@ -7,4 +7,11 @@
    * [Dynamo in Action](01_Introduction/dynamo_in_action.md)
    * [key concepts](01_Introduction/key_concepts.md)
    * [preface](01_Introduction/preface.md)
+* [Hello Dynamo](02_Hello-Dynamo/hello_dynamo.md)
+   * [Installing and Launching Dynamo](02_Hello-Dynamo/installingand_launching_dynamo.md)
+   * [The Dynamo User Interface](02_Hello-Dynamo/the_dynamo_user_interface.md)
+   * [The Workspace](02_Hello-Dynamo/the_workspace.md)
+   * [Getting  Started](02_Hello-Dynamo/getting_started.md)
+   * [File Types and Management](02_Hello-Dynamo/file_types_and_management.md)
+   * [The Workflow](02_Hello-Dynamo/the_workflow.md)
 
