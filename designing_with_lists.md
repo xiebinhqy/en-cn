@@ -1,2 +1,0 @@
-# Designing with Lists
-
