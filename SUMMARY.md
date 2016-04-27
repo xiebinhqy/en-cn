@@ -61,4 +61,5 @@
 * [Packages](10_Packages/10-Packages.md)
    * [Packages Introduction](10_Packages/packages_introduction.md)
    * [Package Case Study – Mesh Toolkit](10_Packages/package_case_study__mesh_toolkit.md)
+   * Developing a Package
 
