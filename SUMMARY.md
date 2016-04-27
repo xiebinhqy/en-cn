@@ -66,5 +66,5 @@
    * [Publishing a Package](10_Packages/publishing_a_package.md)
    * [Zero-Touch Importing](10_Packages/zero-touch_importing.md)
 * [Dynamo extension](11_Dynamo extension/dynamo_extension Introduction.md)
-   * what is dynamo extension
+   * [what is dynamo extension](11_Dynamo extension/what_is_dynamo_extension.md)
 
