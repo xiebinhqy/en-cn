@@ -30,4 +30,5 @@
    * [Geometry Overview](05_Geometry-for-Computational-Design/5-1_geometry-overview.md)
    * [Vectors](05_Geometry-for-Computational-Design/vectors.md)
    * [Points](05_Geometry-for-Computational-Design/points.md)
+   * Curves
 
