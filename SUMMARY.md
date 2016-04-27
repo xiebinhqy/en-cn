@@ -28,5 +28,5 @@
    * [Color](04_The-Building-Blocks-of-Programs/color.md)
 * [geometry for computational design](05_Geometry-for-Computational-Design/5_geometry-for-computational-design.md)
    * [Geometry Overview](05_Geometry-for-Computational-Design/5-1_geometry-overview.md)
-   * Vectors
+   * [Vectors](05_Geometry-for-Computational-Design/vectors.md)
 
