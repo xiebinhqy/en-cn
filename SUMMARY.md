@@ -48,5 +48,5 @@
 * [Dynamo for Revit](08_Dynamo-for-Revit/8_Dynamo-for-Revit.md)
    * [The Revit Connection](08_Dynamo-for-Revit/the_revit_connection.md)
    * [Selecting](08_Dynamo-for-Revit/selecting.md)
-   * Editing
+   * [Editing](08_Dynamo-for-Revit/editing.md)
 
