@@ -42,4 +42,5 @@
    * [n-Dimensional Lists](06_Designing-with-Lists/n-dimensional_lists.md)
 * [Code Blocks and DesignScript](07_Code-Block/7_Code-Blocks-and-Design-Script.md)
    * [What's a Code Block?](07_Code-Block/whats_a_code_block.md)
+   * DesignScript Syntax
 
