@@ -78,4 +78,5 @@
    * [data](Archive/data.md)
    * [logic](Archive/logic.md)
    * [math](Archive/math.md)
+   * strings
 
