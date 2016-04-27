@@ -46,5 +46,5 @@
    * [Shorthand](07_Code-Block/shorthand.md)
    * [Functions](07_Code-Block/functions.md)
 * [Dynamo for Revit](08_Dynamo-for-Revit/8_Dynamo-for-Revit.md)
-   * The Revit Connection
+   * [The Revit Connection](08_Dynamo-for-Revit/the_revit_connection.md)
 
