@@ -15,5 +15,5 @@
    * [File Types and Management](02_Hello-Dynamo/file_types_and_management.md)
    * [The Workflow](02_Hello-Dynamo/the_workflow.md)
 * [The anatomy of a visual program](03_Anatomy-of-a-Dynamo-Definition/anatomy of a visual program.md)
-   * Nodes
+   * [Nodes](03_Anatomy-of-a-Dynamo-Definition/nodes.md)
 
