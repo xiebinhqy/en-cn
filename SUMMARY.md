@@ -55,5 +55,5 @@
 * [Custom Nodes](09_Custom-Nodes/9_Custom-Nodes.md)
    * [Custom Nodes and Introduction](09_Custom-Nodes/custom_nodes_and_introduction.md)
    * [Creating a Custom Node](09_Custom-Nodes/creating_a_custom_node.md)
-   * Publishing to Your Library
+   * [Publishing to Your Library](09_Custom-Nodes/publishing_to_your_library.md)
 
