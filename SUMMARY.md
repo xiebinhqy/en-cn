@@ -44,5 +44,5 @@
    * [What's a Code Block?](07_Code-Block/whats_a_code_block.md)
    * [DesignScript Syntax](07_Code-Block/designscript_syntax.md)
    * [Shorthand](07_Code-Block/shorthand.md)
-   * Functions
+   * [Functions](07_Code-Block/functions.md)
 
