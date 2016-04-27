@@ -26,6 +26,6 @@
    * [Logic](04_The-Building-Blocks-of-Programs/logic.md)
    * [Strings](04_The-Building-Blocks-of-Programs/strings.md)
    * [Color](04_The-Building-Blocks-of-Programs/color.md)
-* [geometry for computational design](geometry_for_computational_design.md)
+* [geometry for computational design](05_Geometry-for-Computational-Design)
    * [Geometry Overview](geometry_overview.md)
 
