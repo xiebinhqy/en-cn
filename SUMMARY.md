@@ -36,5 +36,5 @@
    * [Meshes](05_Geometry-for-Computational-Design/meshes.md)
    * [Importing Geometry](05_Geometry-for-Computational-Design/importing_geometry.md)
 * [Designing with Lists](designing_with_lists.md)
-   * What's a List?
+   * [What's a List?](whats_a_list.md)
 
