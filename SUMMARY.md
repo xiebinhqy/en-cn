@@ -17,4 +17,5 @@
 * [The anatomy of a visual program](03_Anatomy-of-a-Dynamo-Definition/anatomy of a visual program.md)
    * [Nodes](03_Anatomy-of-a-Dynamo-Definition/nodes.md)
    * [Wires](03_Anatomy-of-a-Dynamo-Definition/wires.md)
+   * Library
 
