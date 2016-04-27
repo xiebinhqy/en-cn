@@ -45,5 +45,4 @@
    * [DesignScript Syntax](07_Code-Block/designscript_syntax.md)
    * [Shorthand](07_Code-Block/shorthand.md)
    * [Functions](07_Code-Block/functions.md)
-* [Dynamo for Revit](dynamo_for_revit.md)
 
