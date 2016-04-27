@@ -51,5 +51,5 @@
    * [Editing](08_Dynamo-for-Revit/editing.md)
    * [Creating](08_Dynamo-for-Revit/creating.md)
    * [Customizing](08_Dynamo-for-Revit/customizing.md)
-   * Documenting
+   * [Documenting](08_Dynamo-for-Revit/documenting.md)
 
