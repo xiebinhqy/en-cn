@@ -32,4 +32,5 @@
    * [Points](05_Geometry-for-Computational-Design/points.md)
    * [Curves](05_Geometry-for-Computational-Design/curves.md)
    * [Surfaces](05_Geometry-for-Computational-Design/surfaces.md)
+   * Solids
 
