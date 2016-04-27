@@ -76,4 +76,5 @@
    * [color](Archive/color.md)
    * [core](Archive/core.md)
    * [data](Archive/data.md)
+   * logic
 
