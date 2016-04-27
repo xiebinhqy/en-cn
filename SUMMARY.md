@@ -77,5 +77,5 @@
    * [core](Archive/core.md)
    * [data](Archive/data.md)
    * [logic](Archive/logic.md)
-   * math
+   * [math](Archive/math.md)
 
