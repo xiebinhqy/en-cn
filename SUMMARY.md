@@ -37,4 +37,5 @@
    * [Importing Geometry](05_Geometry-for-Computational-Design/importing_geometry.md)
 * [Designing with Lists](06_Designing-with-Lists/6_designing-with-lists.md)
    * [What's a List?](06_Designing-with-Lists/6-1_whats-a-list.md)
+   * Working with Lists
 
