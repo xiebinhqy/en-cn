@@ -8,11 +8,11 @@
 ### Welcome
 You have just opened the Dynamo Primer, a comprehensive guide to visual programming in Autodesk Dynamo Studio. This primer is an on-going project to share the fundamentals of programming. Topics include working with computational geometry, best practices for rules-based design, cross-disciplinary programming applications, and more with the Dynamo Platform.
 
-The power of Dynamo can be found in a wide variety of desZign-related activities. Dynamo enables an expanding list of readily accessible ways for you to get started:
-* **探索** visual programming for the first time
-* **连接** workflows in various software
-* **社区** an active community of users, contributors, and developers
-* **开发** an open-source platform for continued improvement
+The power of Dynamo can be found in a wide variety of design-related activities. Dynamo enables an expanding list of readily accessible ways for you to get started:
+* **Explore** visual programming for the first time
+* **Connect** workflows in various software
+* **Engage** an active community of users, contributors, and developers
+* **Develop** an open-source platform for continued improvement
 
 In the midst of this activity and exciting opportunity for working with Dynamo, we need a document of the same caliber, the Dynamo Primer.
 

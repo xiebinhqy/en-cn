@@ -78,5 +78,3 @@ Sometimes numerical manipulation isn't the right approach. Now you can manually 
 
 ![Updated Sliders](images/2-4/10-UpdatedSliders.png)
 >1. Note that before **Direct Manipulation** only one slider was plugged into the **Point.ByCoordinates** component. When we manually move the point in the X-direction, Dynamo will automatically generate a new **Number Slider** for the X input.
-
-
