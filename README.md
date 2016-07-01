@@ -9,6 +9,7 @@
 ![Dynamo Logo](images/dynamo_logo_dark-trim.png)
 
 > Dynamo is an open source visual programming platform for designers.
+> 这套教程我会根据官网的教程会做持续的更新，保证和官方的教程一样。
 
 ### Welcome
 You have just opened the Dynamo Primer, a comprehensive guide to visual programming in Autodesk Dynamo Studio. This primer is an on-going project to share the fundamentals of programming. Topics include working with computational geometry, best practices for rules-based design, cross-disciplinary programming applications, and more with the Dynamo Platform.
