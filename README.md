@@ -4,11 +4,12 @@
 
 #####  大家好，我是小兵，在现在建筑的模式下，Autodesk公司退出了参数化编程可视化软件Dynamo。我们将对他进一步的研究，但是目前这个软件差不多不是很成熟，需要大家的努力才能使变得更加完善和稳定。在这儿为了让更多的英文不是太好的人了解这款软件，根据官方网站的指导文件，将进行中文的翻译，另外里边我还会加一些我个人对这个软件的理解，此文中有不当之处还请谅解。此资料不能用作商业用途，违版必究。谢谢大家（个人收集资料用，我愿意分享出来与大家一起探讨）。
 #  Dynamo指导教程
-## Dynamo 教程版本号是0.9.X
+## Dynamo 教程版本号是0.9.X 
 
 ![Dynamo Logo](images/dynamo_logo_dark-trim.png)
 
 > Dynamo is an open source visual programming platform for designers.
+> 
 > 这套教程我会根据官网的教程会做持续的更新，保证和官方的教程一样。
 
 ### Welcome
