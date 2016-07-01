@@ -11,7 +11,7 @@
 
 ![Dynamo Logo](images/dynamo_logo_dark-trim.png)
 
-> Dynamo is an open source visual programming platform for designers.
+> Dynamo是一个开源的可视化参数编程设计软件。
 > 
 > 这套教程我会根据官网的教程会做持续的更新，保证和官方的教程一样。
 
