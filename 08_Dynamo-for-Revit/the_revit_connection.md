@@ -57,12 +57,32 @@ Using the core Dynamo nodes in tandem with custom Revit ones, a user can substan
 ### Freezing Nodes    冻结的节点
 Since Revit is a platform which provides robust project management, parametric operations in Dynamo can be complex and slow to calculate. If Dynamo is taking a long time to calculate nodes, you may want to use the "freeze" node functionality in order to pause the execution of Revit operations while you develop your graph. For more information on freezing nodes, check out the "Freezing" section in the [solids chapter](../05_Geometry-for-Computational-Design/5-6_solids.md#freezing).
 
-### Community
+自从Revit是一个平台,提供了强大的项目管理,在发电机参数业务可以计算复杂和缓慢。如果发电机在很长一段时间来计算节点,您可能想要使用“冻结”节点功能以暂停执行Revit操作当你发展你的图。冻结节点上的更多信息,查看[solids chapter](../05_Geometry-for-Computational-Design/5-6_solids.md#freezing).
+
+
+### Community   社区
 Since Dynamo was originally created for AEC, its large and growing community is a great resource for learning from and connecting with experts in the industry.  Dynamo’s community is made of architects, engineers, programmers, and designers who all have a passion for sharing and making.
+
+因为发电机最初为原子能委员会创建,其庞大的和日益增长的社区是一个巨大的资源学习和联系专家。发电机的社区是由建筑师、工程师、程序员和设计师都有一个激情分享和制作。
+
+
 
 Dynamo is an open-source project that is constantly evolving, and a lot of development is Revit-related.  If you're new to the game, get on the discussion forum and start [posting questions](http://dynamobim.org/forums/forum/dyn/)!  If you're a programmer and want to get involved in Dynamo's development, check out the [github page.](https://github.com/DynamoDS/Dynamo).  Also, a great resource for third-party libraries is the [Dynamo package manager](http://dynamopackages.com/). Many of these packagese are made with AEC in mind, and we'll take a look at third-party packages for panelization in this chapter.
 
-![Blog](images/8-1/blog.png)
+Dynamo是一个开源项目,是不断发展的,很多发展Revit-related。如果你是新游戏,上论坛,开始(发布问题)[posting questions](http://dynamobim.org/forums/forum/dyn/)! 如果你是一个程序员,想参与发电机的发展,查看(github页面。)[github page.](https://github.com/DynamoDS/Dynamo). 。第三方库的同时,一个巨大的资源是(发电机包管理器)[Dynamo package manager](http://dynamopackages.com/).。许多这些packagese由原子能委员会,我们会看一看本章panelization第三方包。
+
+
+
+![Blog](images/8-1/blog.png)     博客
 > Dynamo also maintains an active [blog](http://dynamobim.com/blog/).  Read up on recent posts to learn about the latest developments!
+
+
+>发电机还维护一个活跃的博客[blog](http://dynamobim.com/blog/).。读读最近的帖子,了解最新发展!
+
+
+
+
+
+
 
 
