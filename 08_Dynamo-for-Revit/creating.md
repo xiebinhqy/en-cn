@@ -1,28 +1,71 @@
-## Creating
+## Creating   Dynamo 创建 
 You can create an array of Revit elements in Dynamo with full parametric control.  The Revit nodes in Dynamo offer the ability to import elements from generic geometries to specific category types (like walls and floors).  In this section, we'll focus on importing parametrically flexible elements with adaptive components.
 
+
+
+您可以创建一个数组Revit元素在发电机的参数控制。Revit节点在发电机提供的能力进口来自通用的几何图形的元素特定类别类型(如墙壁和地板)。在本节中,我们将关注进口参数化与自适应组件灵活的元素。
+
+
+
 ![Creation](images/8-4/creation.png)
-### Adaptive Components
+### Adaptive Components    自适应组件
 An adaptive component is a flexible family category which lends itself well to generative applications. Upon instantiation, you can create a complex geometric element which is driven by the fundamental location of adaptive points.
+
+
+
+一种自适应组件是一个灵活的家庭类别,它非常适用于生成应用程序。在实例化之后,您可以创建一个复杂的几何元素是由自适应的基本位置点。
+
+
+
 
 ![AdaptiveComponent](images/8-4/ac.png)
 > An example of a three-point adaptive component in the family editor. This generates a truss which is defined by the position of each adaptive point.  In the exercise below, we'll use this component to generate a series of trusses across a facade.
 
-#### Principles of Interoperability
+
+> 一个家庭中的三点自适应组件编辑器。这生成一个桁架是由每个自适应点的位置。在下面的练习中,我们将使用这个组件来生成一系列正面桁架。
+> 
+
+
+
+#### Principles of Interoperability    互操作性的原则 
 The adaptive component is a good example for best practices of interoperability.  We can create an array of adaptive components by defining the fundamental adaptive points.  And, when transferring this data to other programs, we have the ability to reduce the geometry to simple data.  Importing and exporting with a program like Excel follows a similar logic.
+
+自适应组件互操作性的最佳实践就是一个很好的例子。我们可以创建一个数组的自适应组件通过定义基本自适应点。当将数据转移到其它项目,我们有能力减少几何简单的数据。导入和导出Excel类似这样的程序逻辑。
+
+
+
 
 Suppose a facade consultant wants to know the location of the truss elements without needing to parse through fully articulated geometry.  In preparation for fabrication, the consultant can reference the location of adaptive points to regenerate geometry in a program like Inventor.
 
+
+假设一个facade顾问想知道桁架元素的位置,而不需要通过周密的几何解析。在准备制造,顾问可以引用的位置自适应几何点再生等程序发明家。
+
+
+
 The workflow we'll setup in the exercise below allows us to access all of this data while creating the definition for Revit element creation.  By this process, we can merge conceptualization, documentation, and fabrication into a seamless workflow.  This creates a more intelligent and efficient process for interoperability.
 
-#### Multiple Elements and Lists
+
+
+工作流我们将在下面的练习设置允许我们访问所有的数据在创建Revit元素的定义创建。通过这个过程,我们可以合并概念化,文档,制作成一个无缝的工作流程。这将创建一个更聪明和高效的流程互操作性。
+
+
+
+#### Multiple Elements and Lists    多个元素和列表
 
 ![Exercise](images/8-4/Exercise/03.png)
 
 The exercise below will walk through how Dynamo references data for Revit element creation.  To generate multiple adaptive components, we define a list of lists, where each list has three points representing each point of the adaptive component.  We'll keep this in mind as we manage the data structures in Dynamo.
 
+
+下面的练习将穿过发电机如何引用Revit元素创建的数据。生成多个自适应组件,我们定义了一个列表的列表,每个列表中有三个点代表每个点的自适应组件。我们将牢记这一点,我们在发电机管理的数据结构。
+
+
+
 ### Exercise
 > Download the example files that accompanies this exercise (Right click and "Save Link As..."). A full list of example files can be found in the Appendix.
+
+>下载示例文件,伴随这个练习(右点击“链接另存为…”)。示例文件的完整列表可以在附录中找到。
+
 1. [Creating.dyn](datasets/8-4/Creating.dyn)
 2. [ARCH-Creating-BaseFile.rvt](datasets/8-4/ARCH-Creating-BaseFile.rvt)
 
@@ -30,6 +73,17 @@ The exercise below will walk through how Dynamo references data for Revit elemen
 > Beginning with the example file from this section (or continuing with the Revit file from the previous session), we see the same Revit mass.
 1. This is the file as opened.
 2. This is the truss system we'll created with Dynamo, linked intelligently to the Revit mass.
+
+> 开始从本节的例子文件(或前一交易日继续Revit文件),我们看到相同的Revit质量。
+> 
+> 1.这是文件打开。
+> 
+> 2.这是桁架系统我们将创建发电机,有关智能Revit质量。
+
+
+
+
+
 
 ![Exercise](images/8-4/Exercise/08.png)
 > We've used the *"Select Model Element"* and *"Select Face"* nodes, now we're taking one step further down in the geometry hierarchy and using *"Select Edge"*.  With the Dynamo solver set to run *"Automatic"*, the graph will continually update to changes in the Revit file. The edge we are selecting is tied dynamically to the Revit element topology.  As long as the topology* does not change, the connection remains linked between Revit and Dynamo.
