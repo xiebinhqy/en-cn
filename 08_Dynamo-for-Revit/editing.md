@@ -140,17 +140,40 @@ Just as in Revit, many of these parameters are dependent on each other.  There a
 > 1. This combination gives a funky new design to the building mass: ```100,92,100,25,13,51.4
 ```
 
+就像在Revit,许多这些参数相互依赖。当然组合的几何可能打破。我们可以解决这个问题的定义公式参数属性,或者我们可以设置一个类似的逻辑与数学操作发电机(这是一个额外的挑战,如果你想拓展运动)。
+
+
+> 1.这种组合提供了一个时髦的新设计的建筑质量:““100,92100,25日,13日,51.4
+```
+
+
+
+
 ![Exercise](images/8-3/Exercise/30.png)
 > 1. Let's copy the graph and focus on the facade glazing which will house the truss system.  We isolate four parameters in this case: ``` {"DblSkin_SouthOffset","DblSkin_MidOffset","DblSkin_NorthOffset","Facade Bend Location"};
 ```
 2. Additionally, we create *number sliders* and rename to the appropriate parameters.  The first three sliders from top-to-bottom should be remapped to a domain of [0,10], while the final slider, *"Facade Bend Location"*, should be remapped to a domain of [0,1].  These values, from top-to-bottom should start with these values (although they're arbitrary): ```2.68,2.64,2.29,0.5
 ```
+
+> 1。复制图形和关注立面玻璃房子桁架体系。在这种情况下我们分离四个参数:‘‘{“DblSkin_SouthOffset”、“DblSkin_MidOffset”,“DblSkin_NorthOffset”、“表面弯曲位置”};
+
+
+
+
 3. Define a new *code block *and connect the sliders: ```{so,mo,no,fbl};
 ```
+
+3所示。定义一个新的* *代码块和连接滑块:“‘{莫,不,fbl };
+' ' '
+
 
 
 
 ![Exercise](images/8-3/Exercise/00.png)
 > 1. By changing the *sliders* in this part of the graph, we can make the facade glazing much more substantial: ```9.98,10.0,9.71,0.31
 ```
+
+> 1。通过改变*滑块*在这个图的一部分,我们可以使立面玻璃更实质性的:“‘9.98,10.0,9.71,0.31
+
+
 
