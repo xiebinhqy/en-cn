@@ -139,30 +139,84 @@ In this first example, we assemble a shelled cylinder which walks through the ge
 
 ![](images/4-1/3.png)
 > 1. **Circle.ByPlaneRadius -** Stepping up the hierarchy, we now create a curve from the plane in our previous step.  After plugging into the node, we get a circle at the origin.  The default radius on the node is value of *1*.
+> 
+
+> 1。* *圆。ByPlaneRadius——* *加大层次结构,我们现在在我们之前创建一个曲线从飞机上一步。插入到节点后,我们得到了一个圆在原点。默认的半径* 1 *的节点值。
+> 
+
+
 
 ![](images/4-1/4.png)
 > 1. **Curve.Extrude -** Now we make this thing pop by giving it some depth and going in the third dimension.  This node creates a surface from a curve by extruding it.  The default distance on the node is *1*, and we should see a cylinder in the viewport.
+> 
+
+> 1。* *曲线。挤压——* *现在我们让这个东西流行用一些深度和在第三维度。这个节点创建一个表面曲线的挤压。节点上的违约距离* 1 *,我们应该看到一个气缸的视窗。
+> 
+
+
 
 ![](images/4-1/5.png)
 > 1. **Surface.Thicken -** This node gives us a closed solid by offsetting the surface a given distance and closing the form.  The default thickness value is *1*, and we see a shelled cylinder in the viewport in line with these values.
+> 
+
+> 1。* *表面。加厚- * *这个节点给了我们一个封闭的固体通过给定距离抵消表面和关闭表单。默认厚度值* 1 *,我们看到视窗的炮击缸符合这些值。
+> 
+
+
+
 
 ![](images/4-1/6.png)
 > 1. **Number Slider -** Rather than using the default values for all of these inputs, let's add some parametric control to the model.
 2. **Domain Edit - **after adding the number slider to the canvas, click the caret in the top left to reveal the domain options.
 3. **Min/Max/Step -** change the *min*, *max*, and *step* values to *0*,*2*, and *0.01* respectively. We are doing this to control the size of the overall geometry.
 
+> 1.**号码滑块- * *而不是使用所有这些默认值输入,让我们添加一些参数控制的模型。
+> 
+> 2.。**域编辑- * *向画布添加滑块数量后,点击左上角的插入符号揭示域选项。
+> 
+> 3.所示**最小/最大/步骤- * *改变*分*,*马克斯•*和* *值* 0 *步,分别为0.01 * 2 *,* *。我们这样做是为了控制整体结构的大小。
+> 
+
+
+
+
+
 ![](images/4-1/7.png)
 > 1. **Number Sliders -** In all of the default inputs, let's copy and paste this number slider (select the slider, hit Ctrl+C, then Ctrl+V) several times, until all of the inputs with defaults have a slider instead.  Some of the slider values will have to be larger than zero to get the definition to work (ie: you need an extrusion depth in order to have a surface to thicken).
+> 
+
+> 1**号码滑块- **在所有默认的输入,我们复制和粘贴这个数字滑块(选择滑块,点击Ctrl + C,然后按Ctrl + V)几次,直到所有的输入缺省值有一个滑块。滑块的值必须大于零的定义工作(即:你需要一个挤压深度为了有表面增稠)。
+
+
+
 
 We've now created a parametric shelled cylinder with these sliders.  Try to flex some of these parameters and see the geometry update dynamically in the Dynamo viewport.
+
+现在我们已经创建了一个参数炮击缸与这些滑块。试着flex其中一些参数和发电机的几何动态更新窗口。
+
+
 
 ![](images/4-1/8.png)
 > 1. **Number Sliders -** taking this a step further, we've added a lot of sliders to the canvas, and need to clean up the interface of the tool we just created.  Right click on one slider, select "Rename..." and change each slider to the appropriate name for its parameter.  You can reference the image above for names.
 
+> 1.**号码滑块- **在这一步,我们增加了很多滑块到画布上,并需要清理我们刚刚创建的接口工具。右键单击一个滑动条,选择“重命名…”,改变每个滑块到适当的名称的参数。你可以参考上图的名字。
+
+
+
+
 At this point, we've created an awesome thickening cylinder thing.  This is one object currently, let's look at how to create an array of cylinders that remains dynamically linked.  To do this, we're going to create a list of cylinders, rather than working with a single item.
+
+在这一点上,我们已经创建了一个了不起的增厚圆柱的事情。这是目前一个对象,让我们看看如何创建一个数组是动态链接的圆柱体。要做到这一点,我们将创建一个圆柱体的列表,而不是与一个合作项目。
+
+
 
 ![](images/4-1/9.png)
 > 1. **Addition (+) -** Our goal is to add a row of cylinders next to the cylinder we've created.  If we want to add one cylinder adjacent to the current one, we need to consider both radius of the cylinder and the thickness of its shell.  We get this number by adding the two values of the sliders.
+
+> 1**添加(+)- **我们的目标是增加一排汽缸缸我们已经创建了。如果我们想要添加一个缸附近,我们需要考虑圆柱的半径和壳的厚度。我们得到这个数字增加滑块的两个值。
+
+
+
 
 ![](images/4-1/10.png)
 > This step is more involved so let's walk through it slowly: the end goal is to create a list of numbers which define the locations of each cylinder in a row.
@@ -171,9 +225,37 @@ At this point, we've created an awesome thickening cylinder thing.  This is one 
 3.  **Integer Slider - ** For the *amount* value, we connect an integer slider. This will define how many cylinders are created.
 4. **Output - ** This list shows us the distance moved for each cylinder in the array, and is parametrically driven by the original sliders.
 
+> 这一步是更多的参与让我们慢慢地走过,最终的目标是创建一个列表数据定义每个气缸的位置.
+> 
+> 1.乘法** - **首先,我们想上一步的价值乘以2。上一步中的值代表一个半径,我们想把缸外径。
+> 
+> 2.* ** *号码序列-我们与这个节点创建一个数组的数字。第一个输入*乘法*节点从上一步进入* *步值。* *开始值可以设置为使用*人数* * 0.0 *节点。
+> 
+> 3.所示。**整数滑块- ****价值,我们连接一个滑块的整数。这将定义创建了多少的圆柱体。
+> 
+> 4.所示.输出-****这个清单向我们展示了移动的距离数组,每个缸的参数化,并由原来的滑动条。
+> 
+
+
+
+
+
+
 ![](images/4-1/11.png)
 > 1. This step is simple enough - plug the sequence defined in the previous step into the *x* input of the original *Point.ByCoordinates*.  This will replace the slider *pointX* which we can delete. We now see an array of cylinders in the viewport (make sure the integer slider is larger than 0).
 
+> 1.这一步很简单,前面步骤中定义的顺序插入* x *输入的原始* Point.ByCoordinates *。这将取代滑块* pointX *我们可以删除。我们现在看到的数组圆柱体的视窗(确保整数滑块大于0)。
+
+
+
+
+
+
 ![](images/4-1/12.png)
 > The chain of cylinders is still dynamically linked to all of the sliders.  Flex each slider to watch the definition update!
+
+>气缸链仍动态链接的所有滑块.Flex每个滑块看定义更新!
+
+
+
 
