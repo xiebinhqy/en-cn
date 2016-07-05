@@ -1,8 +1,20 @@
-##Data
+##Data   数据
 Data is the stuff of our programs. It travels through Wires, supplying inputs for Nodes where it gets processed into a new form of output data. Let's review the definition of data, how it's structured, and begin using it in Dynamo.
 
-###What is Data?
+数据是我们计划的东西。它穿过导线,提供输入节点,它被加工成一种新形式的输出数据。让我们回顾数据的定义,它是如何结构化,并开始使用发电机。
+
+
+
+###What is Data?   什么是数据
 Data is a set of values of qualitative or quantitative variables. The simplest form of data is numbers such as ```0```, ```3.14```, or ```17```. But data can also be of a number of different types: a variable representing changing numbers (```height```); characters (```myName```); geometry (```Circle```); or a list of data items (```1,2,3,5,8,13,...```). We need data to add to the input Ports of Dynamo's Nodes - we can have data without actions but we need data to process the actions that our Nodes represent. When we've added a Node to the Workspace, if it doesn't have any inputs supplied, the result will be a function, not the result of the action itself.
+
+
+
+
+数据是一组值的定性或定量变量。最简单的形式的数据是数字,如' ' ' 0 ' ' ' ' ' ' 3.14 ' ' '或' ' ' '“17”。但数据也可以很多不同的类型:一个变量代表改变数字(' ' '高' ' '),人物(' ' '名字' ' ');几何(' ' '圆' ' ');或一个数据项列表(“”1、2、3、5、8、13日…”“)。我们需要数据添加到输入端口的发电机节点——我们可以有数据没有动作,但是我们需要数据来处理我们的节点代表的行动。当我们将一个节点添加到工作区,如果它没有任何输入提供,结果将是一个函数,而不是行动本身的结果。
+
+
+
 
 ![Data and Actions](images/4-1/00-DataAndActions.png)
 
@@ -10,19 +22,56 @@ Data is a set of values of qualitative or quantitative variables. The simplest f
 2. Data and Action (A Node) successfully executes
 3. Action (A Node) without Data Inputs returns a generic function
 
-###Beware of Nulls
+> 1.简单的数据
+> 
+> 2.数据和行动(节点)成功地执行
+> 
+> 3.所示操作(节点)没有数据输入返回一个泛型函数
+> 
+
+
+
+
+###Beware of Nulls    当心出错
+
 The ```'null'``` type represents the absence of data. While this is an abstract concept, you will likely come across this while working with Visual Programming. If an action doesn't create a valid result, the Node will return a null. Testing for nulls and removing nulls from data structure is a crucial part to creating robust programs.
+
+”的“零' ' ' '类型代表数据的缺失。虽然这是一个抽象的概念,你可能会遇到与此同时使用可视化编程。如果一个动作不创建一个有效的结果,该节点将返回null。测试null和删除取消从数据结构创建健壮的程序是一个至关重要的部分。
+
+
 
 | Icon | Name/Syntax | Inputs | Outputs |
 | -- | -- | -- | -- | -- | -- |
 | ![](../images/icons/DSCore-Object-IsNull-Large.png) | Object.IsNull | obj | bool |
 
-###Data Structures
+
+| 图标 | 名称/语法 | 输入 | 输出 |
+| -- | -- | -- | -- | -- | -- |
+| ![](../images/icons/DSCore-Object-IsNull-Large.png) | Object.IsNull | obj | bool |
+
+
+
+
+###Data Structures    数据结构
 When we are Visual Programming, we can very quickly generate a lot of data and require a means of managing its hierarchy. This is the role of Data Structures, the organizational schemes in which we store data. The specifics of Data Structures and how to use them vary from programming language to programming language. In Dynamo, we add hierarchy to our data through Lists. We will explore this in depth in later chapters, but let's start simply:
+
+
+
+
+当我们可视化编程,我们可以很快产生大量的数据,需要管理其层次结构的一种手段。这是数据结构的作用,组织计划我们存储数据。数据结构的细节以及如何使用它们不同的编程语言,编程语言。在发电机中,我们添加了层次结构数据通过列表。我们将深入探索这个在以后的章节,但让我们开始简单的:
+
+
 
 A list represents a collection of items placed into one structure of data:
 * I have five fingers (*items*) on my hand (*list*).
 * There are ten houses (*items*) on my street (*list*).
+
+
+
+代表一组条目列表放入一个数据结构:
+* 我有五个手指(* *)项目在我的手(* *)列表。
+* 有十个房子我大街上(* *)项目(* *)列表。
+
 
 ![List Breakdown](images/4-1/01-ListBreakdown.png)
 
@@ -32,18 +81,61 @@ A list represents a collection of items placed into one structure of data:
 4. Now we merge the two lists into one by using the **List.Create** node.  Notice that the node creates a *list of lists.* This changes the structure of the data.
 5. When using **List.GetItemAtIndex** again, with index set to *0*, we get the first list in the list of lists.  This is what it means to treat a list as an item, which is somewhat different from other scripting languages. We will get more advanced with list manipulation and data structure in later chapters.
 
+> 1.* * * *号码序列节点定义一个数字列表使用* *开始,* *,和* *步输入。这些节点,我们已经创建了两个列表的十个数字,一个范围从100 - 109 * *,另一范围从* 0 - 9 *。
+> 2.**列表。GetItemAtIndex * *节点列表中选择一个项目在一个特定的索引。在选择* 0 *,我们得到第一项在列表中(* 100 *在这种情况下)。
+> 3.所示相同的过程应用到第二个列表,我们得到的值* 0 *,列表中的第一项。
+> 4.所示现在我们合并这两个列表使用* *到一个列表中。创建* *节点。注意节点创建一个*的名单列表。*这改变的结构数据。
+> 5当使用**列表。再次GetItemAtIndex * *,指数* 0 *,我们得到了第一个列表中的列表的列表。这是意味着什么治疗作为一个项目列表,这是有点不同于其他脚本语言。我们将得到更高级的操作和数据结构在以后的章节列表。
+
+
+
 The key concept to understand about data hierarchy in Dynamo: **with respect to data structure, lists are regarded as items.**  In other words, Dynamo functions with a top-down process for understanding data structures. What does this mean? Let's walk through it with an example.
 
+发电机的关键概念理解数据层次结构:* *对数据结构,被视为项目列表。* *换句话说,发电机功能与自顶向下的过程对于理解数据结构。这是什么意思?让我们走过了一个例子。
+
+
+
+
+
+
 ### Using Data to Make a Chain of Cylinders
+
+###  使用数据链的圆柱体
+
+
 >Download the example file that accompanies this exercise (Right click and "Save Link As..."): [Building Blocks of Programs - Data.dyn](datasets/4-1/Building Blocks of Programs - Data.dyn). A full list of example files can be found in the Appendix.
 
+>下载附带的示例文件这个练习(右点击“链接另存为…”):[项目——数据的构建块。达因)([Building Blocks of Programs - Data.dyn](datasets/4-1/Building Blocks of Programs - Data.dyn))。示例文件的完整列表可以在附录中找到。
+
+
+
+
+
 In this first example, we assemble a shelled cylinder which walks through the geometry hierarchy discussed in this section.
+
+在第一个例子中,我们组装的炮击缸穿过几何层次结构在本节中讨论。
+
+
+
+
+
 ![](images/4-1/1.png)
 > 1. **Point.ByCoordinates -** after adding the node to canvas, we see a point at the origin of the Dynamo preview grid.  The default values of the *x,y*, and *z* inputs are *0.0*, giving us a point at this location.
+> 
+
+> 1.**点。ByCoordinates - * *添加节点到画布上之后,我们看到一个在发电机预览网格的起源点。的默认值* x,y,z和* * * 0.0 *输入,给我们一个点在这个位置。
+
 
 ![](images/4-1/2.png)
 > 1. **Plane.ByOriginNormal -** The next step in the geometry hierarchy is a plane.  There are several ways to construct a plane, and we are using an origin and normal for the input.  The origin is the point node created in the previous step.
 2. **Vector.ZAxis -** this is a unitized vector in the z direction.  Notice there are not inputs, only a vector of [0,0,1] value.  We use this as the *normal* input for the *Plane.ByOriginNormal* node.  This gives us a rectangular plane in the Dynamo preview.
+
+> 1.**飞机。ByOriginNormal - **几何层次结构中的下一步是一个平面。有几种方法可以构造一个平面,我们使用一个起源和正常的输入。原点是节点在上一步中创建的。
+>  2.**向量。z轴- * *这是一个组合向量在z方向。注意没有输入,只有一个向量[0,0,1]值。我们用这个作为* *正常*输入平面。ByOriginNormal *节点。这给了我们一个矩形平面电机的预览。
+
+
+
+
 
 ![](images/4-1/3.png)
 > 1. **Circle.ByPlaneRadius -** Stepping up the hierarchy, we now create a curve from the plane in our previous step.  After plugging into the node, we get a circle at the origin.  The default radius on the node is value of *1*.
