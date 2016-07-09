@@ -1,7 +1,7 @@
-##Strings
+##Strings   字符串  
 Formally, a **String** is a sequence of characters representing a literal constant or some type of variable. Informally, a string is programming lingo for text.  We've worked with numbers, both integers and decimal numbers, to drive parameters and we can do the same with text.
 
-###Creating Strings
+###Creating Strings    创建字符串
 Strings can be used for a wide range of applications, including defining custom parameters, annotating documentation sets, and parsing through text-based data sets. The string Node is located in the Core>Input Category.
 
 ![String Examples](images/4-4/4-4-1-005.png)
